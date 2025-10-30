@@ -18,7 +18,6 @@ body {
     background-size: cover;
 }
  head {
-    clear: both; 
     border-top: 2px solid blue;
  }
 a:focus , a:hover {
