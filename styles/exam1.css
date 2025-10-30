@@ -17,9 +17,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
- head {
-    border-top: 2px solid blue;
- }
 a:focus , a:hover {
     font-style: italic;
     color: blue;
