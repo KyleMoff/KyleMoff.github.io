@@ -77,9 +77,12 @@ footer p.copyright {
     text-align: center; 
     font-size: 80%; 
 }
+footer p.linkedin {
+    text-align: center;
+    font-size: 80%;
+}
 p.fixed {
     width: auto; 
-
 }
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
