@@ -1,0 +1,22 @@
+body {
+    width: 95%;
+    margin: 15px auto;
+    background-image: left;
+    background-position: right; 
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+article {
+    clear: left;
+    width: 75%;
+    float: left; 
+    column-count: 2; 
+    column-rule: 2px dotted goldenrod; 
+    column-gap: 2em; 
+    margin-left: 2em;
+}
+ aside {
+    width: 20%;
+    position: fixed; 
+    list-style-position: inside;
+ }
