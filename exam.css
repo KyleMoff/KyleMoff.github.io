@@ -8,6 +8,9 @@ body {
     background-position: right; 
     background-repeat: repeat-y;
     background-attachment: fixed;
+    padding: 15px 1.5em; 
+    border: 1px solid black;
+    border-radius: 25px;
 }
 article {
     clear: left;
