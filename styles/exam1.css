@@ -19,7 +19,7 @@ body {
  
 a:focus , a:hover {
     font-style: italic;
-    color: goldenrod;
+    color: blue;
     border: 3px blue; 
     border-style: dotted solid; 
 }
@@ -30,7 +30,7 @@ h1 {
 }
 h2 {
     font-size: 130%;
-    color: #800000;
+    color: blue;
     text-indent: 30px;
 }
 img {
