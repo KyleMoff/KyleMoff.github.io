@@ -18,7 +18,7 @@ body {
 }
  head{
     clear: both; 
-    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
  }
 a:focus , a:hover {
     font-style: italic;
