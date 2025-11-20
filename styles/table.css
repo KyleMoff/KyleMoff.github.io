@@ -41,7 +41,6 @@ table.third {
     border: 2px solid orangered;
 }
 
-/* The top title row */
 table.third thead tr:first-child {
     background-color: peachpuff;
     border-top: 2px solid orangered;
@@ -53,25 +52,23 @@ table.third thead tr:nth-child(2) {
     border-bottom: 2px solid orangered;
 }
 
-/* All table cells */
 table.third th,
 table.third td {
     border: 2px solid orangered;
     padding: 0.7em;
 }
 
-/* Category numbers aligned to top */
 table.third td.number {
     vertical-align: top;
     font-weight: bold;
 }
 
-/* Last row bottom border */
+
 table.third tbody tr:last-child {
     border-bottom: 2px solid orangered;
 }
 
-/* ------------------ Responsive Media Query ------------------- */
+
 @media only screen and (max-width: 425px) {
     table.third th,
     table.third td {
