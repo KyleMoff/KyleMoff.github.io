@@ -38,25 +38,31 @@ table.third {
     border-collapse: collapse;
     width: 100%;
     margin-top: 2em;
-    border: 2px solid orangered;
+    border-top: 4px solid orangered;
+    border-bottom: 4px solid orangered;
 }
 
-table.third thead tr:first-child {
-    background-color: peachpuff;
-    border-top: 2px solid orangered;
-    border-bottom: 2px solid orangered;
+
+table.third thead tr.title {
+    background-color: lightgreen;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
-table.third thead tr:nth-child(2) {
-    background-color: lightyellow;
-    border-bottom: 2px solid orangered;
+
+table.third thead tr.headers {
+    background-color: #c2f5a8; 
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
+
 
 table.third th,
 table.third td {
-    border: 2px solid orangered;
-    padding: 0.7em;
+    padding: 0.5em 0.8em;
+    border-bottom: 1px solid black;
 }
+
 
 table.third td.number {
     vertical-align: top;
@@ -64,19 +70,16 @@ table.third td.number {
 }
 
 
-table.third tbody tr:last-child {
-    border-bottom: 2px solid orangered;
+table.third tbody tr:last-child td {
+    border-bottom: none;
 }
 
 
 @media only screen and (max-width: 425px) {
-    table.third th,
-    table.third td {
+    th, td {
         display: block;
     }
-
-    thead,
-    td.number {
+    thead, td.number {
         display: none;
         padding: 0;
     }
